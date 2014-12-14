@@ -7,7 +7,9 @@ def remove_duplicates(given_list):
         if item not in no_dups:
             no_dups[item] = item
         
-    for item in no_dups:
-        no_dups_list.append(item)
+    #for item in no_dups:
+    #    no_dups_list.append(item)
     
+    no_dups_list = no_dups.values()
+
     return no_dups_list
